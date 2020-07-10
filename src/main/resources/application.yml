@@ -1,0 +1,14 @@
+
+server:
+  port: 8080
+spring:
+  jms:
+    # false(default): queue 사용, true: topic 사용
+    pub-sub-domain: true
+
+  activemq:
+    broker-url: ssl://b-87dcea00-8bbd-44d3-9058-ceac2d2d41eb-1.mq.ap-northeast-2.amazonaws.com:61617
+    user: hkkim
+    password: dhodlfjtpdy80!
+
+
